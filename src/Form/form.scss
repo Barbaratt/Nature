@@ -1,0 +1,73 @@
+
+
+.form {
+    margin-top: 50px;
+    display: inline-block;
+    background-color: plum;
+    height: 480px;
+    border-radius: 20px;
+  
+
+}
+
+.form p {
+    margin-top: 5px;
+    font-size: 30px;
+    width: 400px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //Como exportar font-family por exemplo do google fonts ? pois eu só conheço por link ref
+}
+
+.form2 {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.form2 label {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form2 input {
+    height: 30px;
+    width: 300px;
+}
+
+.form2 textarea {
+    width: 300px;
+}
+
+.form2 textarea:hover {
+    border-color: red;
+   
+}
+
+.form2 button {
+    margin-top: 15px;
+    background-color: lightseagreen;
+    height: 60px;
+    width: 320px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.form2 button:hover {
+    background-color: lightpink;
+    color: brown;
+    transition: 0.8s;
+
+}
+
+@media screen and (max-width: 740px) {
+
+    .form p {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .form2 label {
+        font-size: 20px;
+    }
+}

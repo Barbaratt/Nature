@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: plum;
+}
+
+.logo {
+    max-width: 60px;
+    margin-top: 10px;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+  
+}
+
+
+.header li a {
+    margin: -15px 50px;
+    display: grid-columns;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    color: black;
+
+   
+}
+
+.header li:hover {
+    color: blue
+}
+
+@media screen and (max-width: 740px) {
+
+    .header {
+        height: 90px;
+       
+    }
+
+    .header li {
+        font-size: 12px;
+        display: inline;
+    
+    }
+}
